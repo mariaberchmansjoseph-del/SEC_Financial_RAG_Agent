@@ -1,0 +1,103 @@
+companies:
+  - name: JPMorgan Chase
+    cik: "0000019617"
+    ticker: JPM
+    sector: financial
+
+  - name: Goldman Sachs
+    cik: "0000886982"
+    ticker: GS
+    sector: financial
+
+  - name: Citigroup
+    cik: "0000831001"
+    ticker: C
+    sector: financial
+
+  - name: Bank of America
+    cik: "0000070858"
+    ticker: BAC
+    sector: financial
+
+  - name: BNY Mellon
+    cik: "0000009626"
+    ticker: BK
+    sector: financial
+
+  - name: Morgan Stanley
+    cik: "0000895421"
+    ticker: MS
+    sector: financial
+
+  - name: Microsoft
+    cik: "0000789019"
+    ticker: MSFT
+    sector: technology
+
+  - name: Alphabet
+    cik: "0001652044"
+    ticker: GOOGL
+    sector: technology
+
+  - name: NVIDIA
+    cik: "0001045810"
+    ticker: NVDA
+    sector: technology
+
+  - name: Meta
+    cik: "0001326801"
+    ticker: META
+    sector: technology
+
+  - name: Apple
+    cik: "0000320193"
+    ticker: AAPL
+    sector: technology
+
+  - name: Amazon
+    cik: "0001018724"
+    ticker: AMZN
+    sector: technology
+
+  - name: ExxonMobil
+    cik: "0000034088"
+    ticker: XOM
+    sector: energy
+
+  - name: Chevron
+    cik: "0000093410"
+    ticker: CVX
+    sector: energy
+
+  - name: ConocoPhillips
+    cik: "0001163165"
+    ticker: COP
+    sector: energy
+
+  - name: HSBC Holdings
+    cik: "0000049196"
+    ticker: HSBC
+    sector: financial
+
+  - name: Visa
+    cik: "0001403161"
+    ticker: V
+    sector: financial
+
+  - name: Mastercard
+    cik: "0001141391"
+    ticker: MA
+    sector: financial
+
+filing_types:
+  - 10-K
+  - 10-Q
+
+years:
+  start: 2022
+  end: 2025
+
+download:
+  delay_seconds: 0.5
+  max_retries: 3
+  timeout_seconds: 30
